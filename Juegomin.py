@@ -192,7 +192,7 @@ class VentanaPlay():
                     if self.turno == 0:                    
                         self.CambioTurno()
                         
-                        #messagebox.showinfo(message="Turno:Maquina")
+                        messagebox.showinfo(message="Turno:Maquina")
                         print("********************************")
                         print("Juega la Máquina>>>>")
                         self.jugada = self.JuegoMaquina(self.opcion)
